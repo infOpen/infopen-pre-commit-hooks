@@ -1,0 +1,16 @@
+*.egg-info
+*.iml
+*.py[co]
+.*.sw[a-z]
+.pytest_cache
+.coverage
+.idea
+.project
+.pydevproject
+.tox
+.venv.touch
+/venv*
+coverage-html
+dist
+# SublimeText project/workspace files
+*.sublime-*

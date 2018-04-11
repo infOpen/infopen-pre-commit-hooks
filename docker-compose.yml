@@ -1,0 +1,6 @@
+---
+
+version: '3'
+services:
+  infopen_pre_commit_hooks:
+    build: .
