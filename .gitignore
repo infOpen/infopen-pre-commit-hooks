@@ -1,4 +1,5 @@
 *.egg-info
+.eggs/
 *.iml
 *.py[co]
 .*.sw[a-z]

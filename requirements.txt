@@ -1,5 +1,6 @@
--e .
 
+-e .
+bump2version==0.5.7
 coverage==4.5.1
 flake8==3.5.0
 mock==2.0.0
