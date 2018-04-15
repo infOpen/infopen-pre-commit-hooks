@@ -1,17 +1,25 @@
-*.egg-info
+# Build & packaging
 .eggs/
-*.iml
-*.py[co]
-.*.sw[a-z]
-.pytest_cache
+infopen_pre_commit_hooks.egg-info/
+build/
+dist/
+docs/_build
+
+# Python bytecode
+*.pyc
+
+# Tests & coverage
+.cache/
 .coverage
-.idea
-.project
-.pydevproject
+.pytest_cache/
+reports/
+
+# Tox tests
 .tox
-.venv.touch
-/venv*
-coverage-html
-dist
-# SublimeText project/workspace files
-*.sublime-*
+
+# Vagrant
+.vagrant/
+
+# Vim swap files
+*.swo
+*.swp
