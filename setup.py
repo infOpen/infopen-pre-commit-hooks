@@ -14,4 +14,4 @@ except ImportError:
 
 
 # Setup function, settings are in setup.cfg
-setup(cmdclass=DOC_CMD_CLASS, version='0.1.2')
+setup(cmdclass=DOC_CMD_CLASS, version='0.1.3')

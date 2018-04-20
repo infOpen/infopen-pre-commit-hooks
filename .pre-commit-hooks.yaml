@@ -5,6 +5,7 @@
   description: This hook checks json files for parseable syntax.
   entry: check-rst
   language: python
+  language_version: python3
   types: [rst]
   # for backward compatibility
   files: ''
@@ -15,9 +16,8 @@
   description: This hook checks Git commit message to ensure is valid
   entry: check-git-commit-message
   language: python
-  types: []
+  language_version: python3
+  types: [text]
   # for backward compatibility
   files: ''
   minimum_pre_commit_version: 0.15.0
-  stages:
-    - commit-msg
