@@ -19,7 +19,7 @@ def check_rst(argv=None):
     for filename in args.filenames:
         errors = restructuredtext_lint.lint_file(filename)
         if errors:
-            print('{}: Failed to xml parse ({})'.format(filename, errors))
+            print('{}: Failed to RST parse ({})'.format(filename, errors))
             retval = 1
     return retval
 
