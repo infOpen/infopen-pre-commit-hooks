@@ -10,7 +10,7 @@ def has_valid_summary_prefix(message):
     """
     Check summary line prefixes
     """
-    if re.search(r'^(bump version|chg|fix|merge|new) ?[:-] \w+.*', message[0]):
+    if re.search(r'^(Bump version|Chg|Fix|Merge|New) ?[:-] \w+.*', message[0]):
         return True
 
     print(
