@@ -5,4 +5,4 @@ infopen_pre_commit_hooks
 
 __author__ = "Alexandre Chaussier"
 __email__ = "a.chaussier@infopen.pro"
-__version__ = "0.1.2"
+__version__ = "0.1.3"
