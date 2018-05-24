@@ -1,1 +1,1 @@
-new: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus nec sapien
+New: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus nec sapien

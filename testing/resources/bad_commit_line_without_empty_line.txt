@@ -1,2 +1,2 @@
-chg: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue nibh
+Chg: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue nibh
 Another informations
