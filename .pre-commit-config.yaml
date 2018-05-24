@@ -34,3 +34,9 @@ repos:
     hooks:
     -   id: remove-crlf
     -   id: remove-tabs
+-   repo: .
+    rev: 0.2.1
+    hooks:
+    -   id: check-git-commit-message
+        stages:
+        -   commit-msg
